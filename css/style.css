@@ -1,0 +1,24 @@
+body{
+    background-color:white ;
+    margin: 0%;
+}
+
+.top{
+    background-color: #9ccc5e;
+}
+header{
+    position: relative;
+    margin-left: 30%;
+}
+
+.title{
+    color: #199e59;
+    font-size: xx-large;
+    padding-left: 10%;
+}
+.about{
+    color: white;
+    font-weight: 200;
+    font: 0.9em sans-serif;
+    font-display: ;
+}
