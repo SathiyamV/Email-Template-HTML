@@ -122,6 +122,33 @@ footer{
     background-color:#9ccc5e ;
 }
 
+@media (min-width: 800px) {
+    .social{
+        position: relative;
+    }
+    .fb{
+        display: grid;
+        position: absolute;
+        justify-content: start;
+    }
+    .linkedin{
+        display: grid;
+        justify-content: end;
+    }
+    .insta{
+        display: grid;
+        justify-content: start;
+    }
+    .twitter{
+        display: grid;
+        bottom: -2%;
+        
+        position: absolute;
+        left: 65%;
+        text-align: center;
+    }
+
+}
 
 
 @media (max-width: 600px) {

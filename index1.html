@@ -2,17 +2,188 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email Template</title>
-    <!-- <style>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
         body{
-            background-color: greenyellow;
+            height: 100vh;
+            background-color:white ;
+            /* margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 0%; */
+            margin: 0%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 50%;
+            grid-template-rows: 1fr;
+            justify-content: center;
+        }
+        
+        .top{
+            background-color: #9ccc5e;
+        }
+        header{
+            position: relative;
+            /* margin-left: 30%; */
+            padding-left: 20%;
+            
+        }
+        
+        .title{
+            color: #199e59;
+            font-size: x-large;
+            padding-left: 10%;
+        }
+        .about{
+            color: white;
+            font-weight: 200;
+            font: 10px sans-serif;
+            margin-left: 5%;
+            text-align: justify;
+        
+        }
+        .hand{
+            position:relative;
+            padding-left: 20%;
+            margin-left: 34%;
+            margin-top: -40%;
+            }
+        
+        /* .dbutton {
+            background-color: black;
+        
+        } */
+        .hand-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: 0;
+        }
+        
+        .dbutton{
+            font-size: larger;
+            border-width: 100px;
+            
+        }
+        .btn {
+        
+          position: absolute;
+          left: 40%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: black;
+          color: white;
+          font-size: 12px;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+          border-radius: 15px;
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .btn:hover {
+            background-color: gray;
+            color: white;
+        }
+        
+        .bottom{
+            margin-top: 10%;
+            text-align: center;
+        }
+        .para {
+            margin-bottom: 10%;
+        }
+        .btn2 {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: black;
+          color: white;
+          font-size: 12px;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+          border-radius: 15px;
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        .btn2:hover {
+            background-color: gray;
+            color: white;
+        }
+        
+        .title3 {
+            margin-top: 20%;
+        }
+        
+        
+        
+        footer{
+            display: grid;
+            grid-column: 10%;
+            text-align: center;
+            background-color:#9ccc5e ;
+        }
+        
+        @media (min-width: 800px) {
+            .social{
+                position: relative;
+            }
+            .fb{
+                display: grid;
+                position: absolute;
+                justify-content: start;
+            }
+            .linkedin{
+                display: grid;
+                justify-content: end;
+            }
+            .insta{
+                display: grid;
+                justify-content: start;
+            }
+            .twitter{
+                display: grid;
+                bottom: 0%;
+                
+                position: absolute;
+                left: 79%;
+                text-align: center;
+            }
+        
+        }
+        
+        
+        @media (max-width: 600px) {
+            .hand {
+            margin-top: 80px;
+            margin-left: 0px;
+            margin-right: 100px;
+            margin-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 80px;
+            }
+            .hand-fit {
+                max-width: 1000px;
+                max-height: auto;
+                margin: 0;
+            }
+            .btn{
+                margin-top: 5%;
+            }
+            .title3{
+                margin-top: 50%;
+            }
         }
 
-    </style> -->
+    </style>
 
 </head>
 
@@ -68,23 +239,24 @@
             </div>
             <div class="social">
                 <div class="fb">
-                    <img class="social-fit" src="images\face-10.png" width=150px>
-                    <h3>Follow Me on Facebook</h3>
+                    <a href="#"><img class="social-fit" src="images\face-10.png" width=150px></a>
+                    
+                    <h3>Follow Me on <br>Facebook</h3>
                     <h2>@SathiyamV</h2>
                 </div>
                 <div class="linkedin">
-                    <img class="social-fit" src="images\linked-10.png" width=150px>
-                    <h3>Follow Me on Linkedin</h3>
+                    <a href="#"><img class="social-fit" src="images\linked-10.png" width=150px></a>
+                    <h3>Follow Me on<br> Linkedin</h3>
                     <h2>@SathiyamV</h2>
                 </div>
                 <div class="insta">
-                    <img class="social-fit" src="images\insta-10.png" width=150px>
-                    <h3>Follow Me on Instagram</h3>
+                    <a href="#"><img class="social-fit" src="images\insta-10.png" width=150px></a>
+                    <h3>Follow Me on <br>Instagram</h3>
                     <h2>@SathiyamV</h2>
                 </div>
                 <div class="twitter">
-                    <img class="social-fit" src="images\twit-10.png" width=150px>
-                    <h3>Follow Me on Twitter</h3>
+                    <a href="#"><img class="social-fit" src="images\twit-10.png" width=150px></a>
+                    <h3>Follow Me on <br>Twitter</h3>
                     <h2>@SathiyamV</h2>
                 </div>
             </div>
